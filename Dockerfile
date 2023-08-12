@@ -1,7 +1,7 @@
 FROM python:3.10
 EXPOSE 5005
 RUN mkdir -p /opt/services/bot/LTCbot1
-WORKDIR /opt/services/bot/Abdumalik22-3bot
+WORKDIR /opt/services/bot/LTCbot1
 
 RUN mkdir -p /opt/services/bot/LTCbot1/requirements
 ADD requirements.txt /opt/services/bot/LTCbot1/
